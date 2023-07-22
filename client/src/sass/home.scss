@@ -1,0 +1,64 @@
+.appContainer {
+  height: 100%;
+  header {
+    background-image: url(../img/bank-tree.jpeg);
+    height: 400px;
+    background-position: center;
+    background-position-y: -285px;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .context {
+      height: 250px;
+      width: 350px;
+      background-color: white;
+      margin-right: 150px;
+
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      padding: 0 30px;
+      h1 {
+        font-size: 30px;
+        margin: 0;
+      }
+    }
+  }
+  main {
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card {
+        display: flex;
+        flex-direction: column;
+        padding: 2.5rem;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        .icon {
+          width: 100px;
+          border: 10px solid #00bc77;
+          border-radius: 50%;
+          padding: 1rem;
+        }
+        h1 {
+          color: #222;
+          font-size: 1.25rem;
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+        }
+        .text {
+          height: 3rem;
+          p {
+            font-family: Avenir, Helvetica, Arial, sans-serif;
+            text-align: center;
+            color: #2c3e50;
+          }
+        }
+      }
+    }
+  }
+}
